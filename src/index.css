@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.App {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.workspace {
+  border: none;
+  border-bottom: 1px solid blue;
+  outline: none;
+  width: 100%;
+  padding-bottom: 6px;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  padding: 15px 0;
+  color: blue;
+}
+
+.box {
+  opacity: 0.33;
+}
+
+
+.active {
+  opacity: 1;
+}
